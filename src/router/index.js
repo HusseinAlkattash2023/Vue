@@ -5,6 +5,8 @@ import Courses from "../views/Courses.vue";
 import Gifts from "../views/Gifts.vue";
 import AboutUs from "../views/About.vue";
 import Faq from "../views/Faq.vue";
+import LoginPage from "../views/LoginPage.vue";
+import RegisterPage from "../views/RegisterPage.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +40,16 @@ const router = createRouter({
       path: '/Faq',
       name: 'faq',
       component: Faq
+    },
+    {
+      path: '/loginPage',
+      name: 'loginPage',
+      component: LoginPage
+    },
+    {
+      path: '/registerPage',
+      name: 'registerPage',
+      component: RegisterPage
     }
   ]
 })

@@ -58,7 +58,9 @@ export default {};
           </li>
         </ul>
         <div>
-          <button class="auth">Anmelden/Registrieren</button>
+          <button class="auth">
+            <router-link to="/loginPage">Anmelden/Registrieren</router-link>
+          </button>
         </div>
       </div>
     </div>
@@ -83,6 +85,15 @@ img {
   background: #dd3333;
   color: white;
   border-radius: 5px;
+}
+.auth a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.auth a:hover{
+  text-decoration: underline;
 }
 .collapse ul li a:hover{
     background: #dd3333;
