@@ -34,8 +34,12 @@ export default {
         <h3>der club an der alster</h3>
       </div>
       <div class="buttons">
-        <button>Events</button>
-        <button>Camps & Kurse</button>
+        <button>
+          <router-link to="/UserEvents">Events</router-link>
+        </button>
+        <button>
+          <router-link to="/UserCoursesView">Camps & Kurse</router-link>
+        </button>
       </div>
     </main>
     <div class="cards">
@@ -109,10 +113,13 @@ h3 {
   font-size: 25px;
   background: #dd3333;
   border: none;
-  color: white;
   font-weight: bold;
   font-style: italic;
   border-radius: 5px;
+}
+.buttons button a{
+  text-decoration: none;
+  color: white;
 }
 .cards {
   display: flex;
