@@ -261,4 +261,27 @@ main .register .body form .footer button{
   padding: 8px 10px;
   border-radius: 6px;
 }
+
+@media only screen and (max-width:520px){
+  main .register .body form .field {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+main .register .body form .field div{
+  width: 90%;
+}
+main .register .body h3 {
+  text-align: center;
+  color: #dd3333;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+main .register {
+  width: 700px;
+  height: 1200px;
+}
+}
 </style>
