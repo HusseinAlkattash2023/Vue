@@ -154,4 +154,15 @@ main .login .body .done a:hover {
   font-size: 13px;
   color: red;
 }
+
+@media only screen and (max-width:520px){
+  main .login {
+  width: 350px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+}
+}
 </style>
