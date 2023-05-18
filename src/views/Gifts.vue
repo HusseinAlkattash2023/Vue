@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .gifts{
     height: 100vh;
     text-align: center;

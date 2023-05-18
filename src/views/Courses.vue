@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .courses{
     height: 100vh;
     text-align: center;

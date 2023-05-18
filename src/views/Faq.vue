@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .faq{
     height: 100vh;
     text-align: center;

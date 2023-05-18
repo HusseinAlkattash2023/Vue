@@ -142,4 +142,57 @@ h3 {
   color: white;
   border-radius: 6px;
 }
+@media only screen and (max-width: 1285px){
+  .cards {
+  flex-direction: column;
+}
+.cards .card_{
+  margin: 10px 0px;
+  width: 800px;
+  height: 200px;
+}
+}
+@media only screen and (max-width:850px){
+.cards .card_{
+  margin: 10px 0px;
+  width: 400px;
+  height: 150px;
+}
+h2{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+}
+h3 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+}
+@media only screen and (max-width:600px){
+  .buttons button {
+  width: 200px;
+  font-size: 20px;
+}
+h2{
+  font-size: 50px;
+}
+h3 {
+  font-size: 25px;
+}
+}
+@media only screen and (max-width:520px){
+  .buttons button {
+  width: 150px;
+  font-size: 16px;
+}
+h2{
+  font-size: 40px;
+}
+h3 {
+  font-size: 20px;
+}
+}
 </style>
